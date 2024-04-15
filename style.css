@@ -1,0 +1,58 @@
+.background{
+    background-image: url(church\ design.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    width: auto;
+    margin-bottom: 20px;
+    
+    
+}
+.navbar{
+    background-color: rgb(254,225,27) !important;
+    height: 70px;
+}
+.nav-link{
+    color: rgb(238, 21, 21) !important;
+    
+}
+.nav-link:hover{
+    background-color: rgb(48, 70, 70);
+    border-radius: 11px;
+}
+.row img{
+
+    width: 500px;
+    justify-items: center;
+}
+.card1 a{width: 50%;
+    
+ 
+}
+.rotate{
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    from{
+        transform: rotate (0deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}
+
+
+.mission-body1{
+    background-color: black;
+}
+@media only screen and (max-width:600px) {
+    .rightside img {
+        width: 100px;
+        }
+
+    h1{
+     font-size: large;
+     padding-top: 50px;
+    }
+    
+}
